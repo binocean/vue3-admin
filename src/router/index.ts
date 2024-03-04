@@ -57,37 +57,6 @@ export const constantRoutes: RouteRecordRaw[] = [
     ]
   },
   {
-    path: "/unocss",
-    component: Layout,
-    redirect: "/unocss/index",
-    children: [
-      {
-        path: "index",
-        component: () => import("@/views/unocss/index.vue"),
-        name: "UnoCSS",
-        meta: {
-          title: "unocss",
-          svgIcon: "unocss"
-        }
-      }
-    ]
-  },
-  {
-    path: "/link",
-    component: Layout,
-    children: [
-      {
-        path: "https://juejin.cn/post/7089377403717287972",
-        component: () => {},
-        name: "Link",
-        meta: {
-          title: "外链",
-          svgIcon: "link"
-        }
-      }
-    ]
-  },
-  {
     path: "/table",
     component: Layout,
     redirect: "/table/element-plus",

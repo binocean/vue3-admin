@@ -1,4 +1,4 @@
-export interface ILoginRequestData {
+export interface LoginRequestData {
   /** admin 或 editor */
   username: "admin" | "editor"
   /** 密码 */
